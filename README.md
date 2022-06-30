@@ -51,12 +51,13 @@ Es wird das Kommando "pstotext" benötigt, um es zu installieren, muss das folge
     pkg install print/pstotext
 
 --------------------------------------------------------------------------------
-Ab Juli 2014:
+Anwendung
+--------------------------------------------
 
 beispielsweise könnte man das so machen,
 als erstes die neueste Version saugen:
     
-    wget https://github.com/FlatheadV8/Pax-Bank_PDF2CSV/archive/1.2.0.tar.gz
+    git clone https://github.com/ComictypX/Paxbank_PDF2CSV
 
 dann entpacken:
     
@@ -76,19 +77,6 @@ evtl. die CSV-Datei ins QIF-Format umwandeln:
     
     Pax-Bank_PDF2CSV-1.2.0/postbank_csv2qif.sh PB_KAZ_KtoNr_0903464503_11-11-2014_0437.csv 
     -rw-r--r-- 1 ich ich 2,2K Dez 16 03:33 PB_KAZ_KtoNr_0903464503_11-11-2014_0437.qif
-
---------------------------------------------------------------------------------
-Bis Juni 2014:
-
-den Kontoauszug aus dem PDF-Format ins CSV-Format umwandeln:
-    
-    Pax-Bank_PDF2CSV-1.2.0/postbank_pdf2csv_bis_2013.sh Pax-Bank/Kontoauszug_2014-01-10.pdf 
-    -rw-r--r-- 1 ich ich 2,7K Dez 16 13:55 Pax-Bank/Kontoauszug_2014-01-10.csv
-
-evtl. die CSV-Datei ins QIF-Format umwandeln:
-    
-    Pax-Bank_PDF2CSV-1.2.0/postbank_csv2qif_bis_2013.sh Pax-Bank/Kontoauszug_2014-01-10.csv 
-    -rw-r--r-- 1 ich ich 2,8K Dez 16 13:57 Pax-Bank/Kontoauszug_2014-01-10.qif
 
 --------------------------------------------------------------------------------
 
