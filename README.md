@@ -59,10 +59,6 @@ als erstes die neueste Version saugen:
     
     git clone https://github.com/ComictypX/Paxbank_PDF2CSV
 
-dann entpacken:
-    
-    tar xzvf 1.2.0.tar.gz
-
 den Kontoauszug aus dem PDF-Format ins CSV-Format umwandeln:
     
     Pax-Bank_PDF2CSV-1.2.0/postbank_pdf2csv.sh PB_KAZ_KtoNr_0903464503_11-11-2014_0437.pdf
