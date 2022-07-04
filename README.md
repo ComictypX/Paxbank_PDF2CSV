@@ -1,7 +1,7 @@
 Pax-Bank_PDF2CSV
 ================
 
-Dies ist ein Fork des Projekts Postbank_PDF2CSV von FlatheadV8, welches durch mich für die Pax-Bank angepasst wurde.
+Dies ist ein Fork des Projekts [Postbank_PDF2CSV von FlatheadV8](https://github.com/FlatheadV8/Postbank_PDF2CSV/), welches durch mich für die Pax-Bank angepasst wurde.
 
 Leider kann man im Onlineportal der Pax-Bank (und auch per EBICS) seine Umsätze nur für die letzten 365 Tage als CSV runter runterladen. Braucht man mehr in einem elektronisch verarbeitbaren Format, dann muss man auf die Kontoauszüge zurückgreifen, die aber leider nur im nicht bearbeitbaren PDF-Format vorliegen. Um diese ins Text-Format und dann ins CSV-Format umzuwandeln, damit man sie in einer Tabellenkalkulation aufarbeiten kann, wurde das folgende Skript geschrieben.
 
